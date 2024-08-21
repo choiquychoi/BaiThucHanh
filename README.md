@@ -7,16 +7,18 @@ Clone the project
   git clone https://github.com/choiquychoi/hospital-web.git
 ```
 
-Go to the project directory
-
-```bash
-  cd hospital-web
-```
-
 Install dependencies
 
 ```bash
   npm install
+```
+
+Download XAMPP and create a database named hospital_web.
+
+Then Run migrations in terminal
+
+```bash
+  npx sequelize-cli db:migrate
 ```
 
 Start the server
