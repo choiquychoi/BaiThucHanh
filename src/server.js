@@ -9,7 +9,7 @@ require('dotenv').config();   // giup chayj dc dong process.env
 
 
 let app = express();
-app.use(cors({ origin: true }));
+app.use(cors({ credentials: true, origin: true }));
 
 
 app.use(bodyParser.json());
